@@ -1,0 +1,76 @@
+.banner {height: 20em;}
+.notices {height: 7em; }
+
+.banner , .notices{ overflow: hidden; border-bottom:  solid thin;}
+.slider , .right-slider{width: 100%; position: relative;border: solid thin; margin: 0;padding: 0;}
+
+
+
+/***unslider***/
+.unslider{overflow:auto; margin:0; padding:0;}
+.unslider-wrap{position:relative;}
+.unslider-wrap.unslider-carousel>li{float:left;}
+/*.unslider-vertical>ul{height:10em;}*/
+.unslider-vertical>ul li{float:none;width:100%;}
+.unslider-fade{position:relative;}
+.unslider-fade .unslider-wrap li{position:relative;left:0;top:0;right:0;z-index:8;}
+.unslider-fade .unslider-wrap li.unslider-active{z-index:10;}
+.unslider li,.unslider ol,.unslider ul{list-style:none;margin:0;padding:0;border:none;}
+
+.unslider-arrow{position:absolute; ;z-index:99900;cursor:pointer;}
+.unslider-arrow.play{left: 1em;}
+.unslider-arrow.next{left: auto; right: 0em;}
+.unslider-arrow.pause{left: auto; right: 1em;}
+.unslider-arrow span {display: none;}
+
+@media only screen and (min-width: 34em) 
+          {
+.unslider-arrow span {display: inline-block;}
+.unslider-arrow.play{left: 4em;}
+.unslider-arrow.pause{left: auto; right: 4em;}
+          }
+
+.unslider ul {height: 100%;}          
+.unslider ul li {
+    height: 100%;
+	  margin: auto; 
+	 
+		-o-background-size: 100% 100%;
+		-ms-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-webkit-background-size: 100% 100%;
+		background-size: 100% 100%;
+		text-align: center;
+		}
+
+
+
+.one{background-image: url("../img/17.jpg");}
+.two{background-image: url("img/12.jpg");}
+.three{background-image: url("img/13.jpg");}
+.four{background-image: url("img/14.jpg");}
+.five{background-image: url("img/15.jpg");}
+.six{background-image: url("img/16.jpg");}
+
+/***unslider dots***/
+.unslider-nav ol {
+  list-style: disc;
+  text-align: center;
+}
+.unslider-nav ol li { 
+  display: inline-block;
+  width: 0.5em;
+  height: 0.5em;
+  margin: 0 0.25em;
+  background: transparent;
+  border-radius: 0.5em;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid;
+  cursor: pointer;
+}
+.unslider-nav ol li.unslider-active {
+    cursor: default;
+}
+/*
+

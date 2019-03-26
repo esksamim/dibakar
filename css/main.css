@@ -1,0 +1,171 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+ 
+a .green {color: green;}
+
+.mnu-icon  {position: relative; top: 2.5rem; left: 1.75rem;  }
+.darkbg{background: #222; opacity: 0.8; color: #fff;}
+
+.bdr-rht{border-right: 2px solid white;}
+
+.searchbar input {width: 47%; text-align: center;}
+.menu2{ height: 3rem; line-height: 3rem;  border-bottom:  2px solid white;}
+.searchbar{ height: 3rem; padding: 0.5rem;}
+.carousel{border:  1px solid indigo;}
+.carousel-bg { background-image: url("../img/ 1.jpg"); } 
+/*.carousel div {display: block; height: 14rem; background-image: url("../img/ 1.jpg"); height: 14rem; }
+.carousel div img {width: 25%;height: 75%; position: relative;top: 5rem; left: 45%;}*/
+li {list-style: none;}
+
+
+
+#partner{min-height: 9rem; border: 1px solid black;}
+.main-area{min-height: 61rem; border: 1px solid black; background: #ccc; overflow: hidden;}
+.side-area{ border: 1px solid black; padding:  0;}
+
+#tab-box {min-height: 15rem;border: 1px solid blue; }
+ 
+.dmenu2 li {display: table-cell; z-index: 99;}
+
+
+        .nav > li.dropdown.open {
+  position: static;
+}
+
+.nav > li.dropdown.open .dropdown-menu { 
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+.bd{border:solid 1px blue;}
+
+
+
+
+
+
+.nav-top > li.dropdown.open {
+  position: static;
+}
+
+.nav-top > li.dropdown.open .dropdown-menu {
+  display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+
+
+
+.partner-img{ width: 9em; height: 7em;}
+.subscribe-bar {border: solid 1px blue; margin: 0.5em;}
+
+
+ 
+
+.ad2{height: 15rem; overflow: hidden;}
+
+
+.card{background: #fff; width: 100%; overflow: hidden; margin: 0.5rem; padding: 0.5rem; }
+.card-bar{border: solid 1px grey; width: 100%; height: 3rem;}
+.card p { line-height: 1.5rem; }
+.card td:nth-child(even) { padding-left: 1.5em; }
+.card tr { margin: 1.5em; }
+ 
+.hid-nav > li.dropdown.open .dropdown-menu { 
+  
+   display: table;
+  border-radius: 0px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+}
+.dmenu3 li {display: table-cell; z-index: 99;}
+
+.inr-lft {  right: 0;  text-align:right; padding-right: 2em; }
+
+.inr-rht{ left: 0;  text-align:left; padding-left: 2em;}
+.inr-rht, .inr-lft { display: inline-block; width: 30rem; height: 13rem; position: absolute; 
+ top:7em; background: rgba(0,255,255,0.3);    }
+.bdr {border-right: solid 2px black;}
+.nb {border: solid 1px black; background-color: #cbc;}
+.card-bar { border: solid; 1px black;  }
+.card-bar p {line-height: 2.5rem;}
+
+
+.adimg1 {width: 100%; height: 100%;}
+
+.acco-cont {width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2#carouselExampleIndicators img {width: 100%; height: 5em;}
+
+partner-img
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#carouseltop{height: 15em;overflow: hidden;}
+#carouselpartner{min-height: 5em;}
+#carouselbotm{min-height: 7em;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
